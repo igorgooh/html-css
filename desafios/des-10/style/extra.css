@@ -1,0 +1,22 @@
+.extra{
+    background-color: rgba(138, 242, 160, 0.899);
+    border-radius: 20px;
+    margin: 0.8rem 1.3rem;
+}
+
+.lista{
+    column-count: 2;
+    column-gap: 20px;
+}
+.lista li{
+    padding: 3px;
+    margin: 5px;
+}
+
+.extra> h2{
+    background-color: rgb(24, 180, 68);
+    border-radius: 20px 0px;
+}
+.extra>p{
+    padding: 0.7rem;
+}

@@ -1,0 +1,37 @@
+
+header{
+    width: 100%;
+    padding: 28px;
+    top: 0;
+    background-image: linear-gradient(to top, rgb(9, 107, 50), rgba(10, 255, 10, 0.792));
+}
+
+.centralizado{
+    text-align: center;
+    margin: 1.2em;
+    color: var(--principal-color);
+}
+
+#navbar{
+    justify-content: space-between;
+    margin-top: 33px;
+    margin-bottom: -20px;
+    border: none;
+}
+
+#nav_list{
+    display: flex;
+    gap: 14px;
+
+}
+
+.nav-item{
+    display: block;
+    font-weight: 600;
+    color: var(--principal-color)
+}
+.nav-item:hover{
+    transition: 0.5s ease;
+    transform: scale(1.1);
+    color: aqua;
+}

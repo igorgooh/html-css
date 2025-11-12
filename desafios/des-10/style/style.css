@@ -1,0 +1,62 @@
+@import url(home.css);
+@import url(header.css);
+@import url(curiosidades.css);
+@import url(extra.css);
+
+@font-face {
+    font-family: 'idroid.otf';
+    src: url(../fontes/idroid.otf);
+}
+
+*{
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --principal-color: white;
+    --titulos-color: rgb(70, 158, 11);
+    --textos-color: black;
+}
+
+html, body{
+    height: 100%;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+    background-color: aqua;
+}
+
+.picture, video{
+    display: block; /*Garante que os elementos respeitem os espaçamentos*/
+    max-width: 100%; /* Faz com imagens e videos sejam responsiveis*/
+    height: auto; /* Mantem a proporção de imagens e videos*/
+}
+
+ol,ul{
+    list-style: none; /*remove marcadores e números de listas*/
+}
+
+a{
+    text-decoration: none; /*remove o sublinhado de links*/
+    color: inherit; /*faz o link herdar a cor do texto*/
+}
+
+main{
+    background-color: aliceblue;
+    margin: 0.5rem 3rem;
+    padding: 0.6rem;
+
+}
+h2{
+    font-family: 'idroid.otf';
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    
+}

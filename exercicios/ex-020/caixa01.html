@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Caixas</title>
+
+    <style>
+        h1{
+            
+            background-color: lightslategrey;
+            height: 300px;
+            width: 300px;
+            color: aqua;
+            /*Simplificando codigo de bordar, seguindo uma orde -altura, estilo, cor-*/
+            border: 5px solid black;
+           /* metodo convencional
+            border-width: 10px;
+            border-style: solid;
+            border-color: black;*/
+
+            /*padding simplificado, seguindo hierarquia - topo, direta, baixo, esquerda-. Se as medidas forem iguais basta informa uma só vez*/
+            padding: 10px;
+
+           /* metodo convencional
+            padding-top: cima ;
+            padding-right: direita ;
+            padding-bottom: baixo;
+            padding-left: esquerda;*/
+
+            margin: 20px auto;
+            text-align: center;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1> Exemplo de caixa box level</h1>
+    <p>Paragrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixa nline-level</a>. vamos ver como tudo isso funciona</p>
+</body>
+</html>
